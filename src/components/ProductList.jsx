@@ -20,14 +20,29 @@ const products = [
       image: 'src/assets/shoe_C01.jpeg',
       price: '$120',
     },
+    {
+      id: 4,
+      name: "Women's shoes",
+      image: 'src/assets/shoe_C01.jpeg',
+      price: '$120',
+    },
+    {
+      id: 5,
+      name: "Women's shoes",
+      image: 'src/assets/shoe_C01.jpeg',
+      price: '$120',
+    },
+    {
+      id: 6,
+      name: "Women's shoes",
+      image: 'src/assets/shoe_C01.jpeg',
+      price: '$120',
+    },
   ];
   
 
-  // ProductList is a functional component, similar to JS - arrow function.
-  const ProductList = () => {
+    const ProductList = () => {
     return (
-
-      // We write HTML/JSX here.
 
       <div className="product-list">
         {products.map(product => (                                          // map is similar to forEach but it creates a duplicate array, instead of modifying the original array. It's a JS calling function.
