@@ -1,0 +1,7 @@
+Create using vite:
+npm create vite@latest burgerio --template react
+
+
+
+My folders:
+components folder in src folder.

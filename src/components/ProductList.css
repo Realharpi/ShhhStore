@@ -1,0 +1,27 @@
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.product-card {
+  margin: 16px;
+  text-align: center;
+  width: 300px;
+}
+
+.product-card img {
+  width: 100%;
+  height: 65%;
+  object-fit: cover;
+}
+
+.product-card h2 {
+  font-size: 1.2em;
+  margin: 0.5em 0;
+}
+
+.product-card p {
+  font-size: 1em;
+  color: #666;
+}
